@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Urbanist', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root{
+  --color-primary: #fd853a;
+  --color-primary-lighter: #feb173;
+  --dark-color: #171717;
+  --color-secondary: #344054;
+  --color-dark: #1D2939;
+}
