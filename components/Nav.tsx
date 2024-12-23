@@ -22,7 +22,7 @@ const Nav = () => {
 
 
     return (
-        <div className="bg-black px-2 py-2 flex items-center justify-between rounded-full text-white fixed top-4 left-1/2 transform -translate-x-1/2 z-10 w-full  max-w-[1400px]">
+        <div className="bg-black px-2 py-2 flex items-center justify-between rounded-full text-white fixed top-4 left-1/2 transform -translate-x-1/2 z-10 w-full max-w-[1400px]">
             {/* Display first part of menus */}
             <div className="flex items-center gap-4 lg:gap-10 font-lugfa">
                 {firstPart.map((menu) => (
